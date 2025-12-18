@@ -1,1 +1,3 @@
-# weather-app-224060-224298
+# Project Repository
+
+This is the initial README file for the project.
