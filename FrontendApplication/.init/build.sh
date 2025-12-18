@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+WS="/home/kavia/workspace/code-generation/weather-app-224060-224298/FrontendApplication"
+cd "$WS"
+# minimal build wrapper
+npm run build --silent || { echo 'ERR_BUILD_FAILED' >&2; exit 50; }
